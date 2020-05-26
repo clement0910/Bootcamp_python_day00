@@ -8,7 +8,7 @@ print("Good luck!")
 n = input(">> ")
 
 attempt = 1
-random = 42
+random = ramdom.randint
 if n.isdigit() is True:
     if int(n) is random:
         if (int(n) is 42):
